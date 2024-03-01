@@ -23,5 +23,4 @@ test('client app validation', async () => {
     
     
     // await page.pause()
-    // await page.waitForTimeout(5000)
 })
