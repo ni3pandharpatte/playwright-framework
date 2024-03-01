@@ -64,6 +64,6 @@ test('login using API and then client app', async () => {
     const allTitles = await cardTitles.allTextContents()
     console.log(allTitles)
 
-    await page.pause()
+    // await page.pause()
 
 })

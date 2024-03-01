@@ -18,5 +18,5 @@ test('network intercepting', async ({ browser }) => {
     await page.locator('button[routerlink*="myorders"]').click()
     const emptyOrderListMessage = await page.locator('[class="mt-4 ng-star-inserted"]').textContent()
     expect(emptyOrderListMessage).toContain('You have No Orders to show at this time')
-    await page.pause()
+    // await page.pause()
 })

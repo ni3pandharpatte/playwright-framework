@@ -19,6 +19,6 @@ for (const data of orderSet) {
         const allTitles = await dashboardPage.getAllCardsTitle()
         console.log(allTitles)
         await dashboardPage.addProductToCart(data.productName)
-        await page.pause()
+        // await page.pause()
     })
 }

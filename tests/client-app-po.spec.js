@@ -18,5 +18,5 @@ test('client app validation', async () => {
     const allTitles = await dashboardPage.getAllCardsTitle()
     console.log(allTitles)
     await dashboardPage.addProductToCart(orderSet.productName)
-    await page.pause()
+    // await page.pause()
 })
