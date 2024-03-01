@@ -1,0 +1,20 @@
+{
+    "name": "playwright-basics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test-pw": "npx playwright test tests/client-app-po.spec.js --headed"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.41.2",
+        "@types/node": "^20.11.17",
+        "allure-playwright": "^2.12.0"
+    },
+    "dependencies": {
+        "@cucumber/cucumber": "^10.3.1"
+    }
+}
