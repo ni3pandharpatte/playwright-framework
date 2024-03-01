@@ -102,7 +102,7 @@ test.describe('Jai Ganesh', async function () {
         await usernameInput.fill(domain)
     })
 
-    test.only('locators in playwright',async ()=>{
+    test('locators in playwright',async ()=>{
         const browser = await chromium.launch()
         const context = await browser.newContext()
         const page = await context.newPage()

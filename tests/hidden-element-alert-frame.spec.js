@@ -27,7 +27,7 @@ test('javascript popup/dialog handling', async function ({ browser }) {
     await page.locator('#confirmbtn').click()
 })
 
-test.only('handling frames', async function ({ browser }) {
+test('handling frames', async function ({ browser }) {
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
